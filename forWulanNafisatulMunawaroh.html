@@ -1,0 +1,104 @@
+<html>
+<meta charset='UTF-8' />
+<meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport' />
+<meta content='IE=edge' http-equiv='X-UA-Compatible' />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+<link href="https://mulai.likeadream.repl.co/fire.css" rel="stylesheet" type="text/css" />
+<link href="https://someone.likeadream.repl.co/style.css" rel="stylesheet" type="text/css" />
+<script src="https://someone.likeadream.repl.co/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+<!-- 
+    This code was made by Rayya R
+    Blog: https://sinkronin.com
+    Instagram: rayyarrr
+    TikTok: rayyarr_
+    -->
+<style>
+    .swal2-title {
+        font-size: 20px;
+        text-align: center;
+        padding: 15px 30px 0 30px;
+    }
+    
+    .swal2-container {
+        top: -60px;
+    }
+</style>
+
+<body>
+    <div class="foto">
+        <!-- Foto Kamu dan Aku -->
+        <div class="image"><img id="ftKm" src="https://i.postimg.cc/7Y5St8C3/snuggles-caring-1.gif" width="130px" height="130px" /><img id="ftAk" style="opacity:0;position:absolute;" src="https://i.postimg.cc/kG6jCNrG/mimibubu-1.gif" width="130px" height="130px" /></div>
+        <!-- Nama Kamu --><span id="sp1"></span>
+        <div id="sp2" style="display:none;"><span id="text3"></span></div>
+        <div id="sp3" style="display:none;"><span id="text4"></span></div>
+    </div>
+
+    <div id='Content' style="display:none">
+        <div class="pyro" id="fire">
+            <div class="before"></div>
+            <div class="after"></div>
+        </div>
+        <blockquote>
+            <script>
+                var musik = new Audio();
+                musik.src = "SELAMAT ULANG TAHUN - Gellen Martadinata (Kalimba Cover with Tabs).mp3";
+                musik.loop = true;
+                musik.play();
+            </script>
+            <p id="text"></p>
+            <p id="text2"></p>
+        </blockquote>
+    </div>
+
+    <div id="tombo" class="content2">
+        <div id="lopdeg" class="ct1"><label class='lovein' onClick="mulai();nonTo()">&#10084;&#65039;</label></div>
+        <p style="opacity:.7;font-size:15px;color:white">Pencet Love-nya</p>
+    </div>
+
+    <script type="text/javascript">
+        document.getElementById("sp1").innerHTML = "Assalamualaikums istriku sayang &#9829;"
+        const swals = Swal.mixin({
+            allowOutsideClick: false,
+        });
+        const swalsy = Swal.mixin({
+            confirmButtonText: 'Iya',
+            allowOutsideClick: false,
+        });
+        async function mulai() {
+            var {
+                value: nama
+            } = await swals.fire({
+                title: 'Masukin nama kamu ya sayang jan yang lain &#9829',
+                input: 'text',
+                allowOutsideClick: false,
+                showCancelButton: false,
+            });
+            if (nama && nama.length < 8) {
+                window.nama = nama;
+                await swalsy.fire('' + nama + ' sayang,, Selamat Ulang Tahun ya sayangggggggg kuuuu &#9829 &#9829 &#9829');
+                await swals.fire('semoga Panjang umur dan sehat selalu ' + nama + ' ku sayang! &#128155;');
+                await swals.fire('Semoga selalu di beri rezeki yang melimpah dan di beri keberkahan di dalamnya sayang');
+                await swals.fire('semoga cepet di kabulkan apapun yang kamu inginkan, apapun tujuan kamu selama itu baik');
+                await swals.fire('semoga selalu di beri jalan yang mudah dalam segala urusan kamu sayang');
+                await swals.fire('tetap sabar dan harus kuat menjalani semua rintangan semua cobaan yang ALLAH berikan ke kamu ya ' + nama + ' ku sayaaaang');
+                await swals.fire('karena kamu belem tau seperti apa sakitnya ketika ALLAH udah gak peduli lagi sama kamu');
+                await swals.fire('jadi tetap semangat dan nikmati pahit manisnya ya sayangkuuuu &#128155; &#128155; &#128155;');
+                await swals.fire('hehe, gk ada habisnya doaku untukmu sayang, kasian kamu cape klik klik ok, tapi gak papa ya sayang, aku juga gak cape ngdingnya buat kamu hehe');
+                await swals.fire(`Sekarang langsung lihat ini aja deh ` + nama + ' ku sayaang');
+                document.getElementById("sp1").innerHTML = "for " + nama + " &#128155;";
+                text = "Selamat ulang tahun, " + nama + "ku sayaaang.";
+                text2 = "doaku buat kamu gk bakal ada habisnya " + nama + " sayaaang, dan semogaaa banget doakamu, doaku, dan doa kita selalu di kabulkan oleh allah, jalan kita dari awal banyak cobanya ya sayang, ada 1 2 coba yang berhasil kita lewati dan ada juga yang gagal kita lewati, tapi mulai sekarang semoga kita selalu bisa buat ngelewatin semua cobaan yang ALLAH hadiahkan untuk kita ya sayang, dan semoga kelak kita tinggal jalanin nikmat sama indahnya hidup, bareng anak-anak kita cucu sampe buyut dan seterusnya. \n\n hehe, iya sayang, apa yg aku sampein intinya sama aja kaya yang tadi kamu skip, aku tau aku masih banyaaak banget kekurangan, aku masih sering bikin kamu sakit hati lah, ngrepotin kamu dalam banyak hal lah, aku minta maaaap banget ya " + nama + "ku sayaaang, aku juga minta maap banget cuma script katro murahan kaya gini doang yang bisa aku hadiahin ke kamu di hari istimewa kamu, aku gk bisa hadiahin apa yang kamu pengen, hadiah yang jauh lebih berarti buat hidup kamu, aku bener-bener lagi di bawah banget, aku bener-bener lagi hina banget di mata orang, aku lagi di coba sayang, termasuk dalam ke uwangan aku, jadi aku minta maap banget, aku tau kamu banyak kecewa sama aku, pokoknya aku minta maap se banyak-banyak nya yang sama aku yang selalu gini, selalu ngrepotin kamu. \n\nkamu selalu terbaik di hidupku " + nama + " sayang, sampe kapanku kamu gk akan pernah ada gantinya, memang ada beberapa hal yang pernah bikin perasaanku ke kamu berkurang, kamu tau itu, tapi kamu berhasil nutupin itu semua dengan senyum mu, dengan kesabaran dan perhatian kamu, oke udah terlalu banyak yang aku sampein sayang dan mungkin mnurut kamu bahasaku muter-muuter terus hehe, ya begini lah jadinya kamu dapet cowo yang gk bisa ngrangkai kata-kata. aku tau kamu dah cape, jadi terakhir aku mohon banget ke kamu, jadilah " + nama + " yang aku kenal dan aku sayang ya! jangan pernah berubah. I LOVE YOU " + nama + " ku sayang!!  HAPPY BERTH DAY AYANGKUUUU!!!";
+                ketik();
+                showDiv();
+            } else {
+                await swals.fire('Ups!', 'di bilangin nama kamu jan nama yang lain ihh, ehh lupa hehe, Nama juga tidak boleh kosong atau lebih dari 7 karakter, ya sayang!');
+                mulai();
+            }
+        }
+    </script>
+</body>
+
+</html>
